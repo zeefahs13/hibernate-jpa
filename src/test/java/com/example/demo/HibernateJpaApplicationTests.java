@@ -1,11 +1,9 @@
 package com.example.demo;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.ContextConfiguration;
 
-@DataJpaTest
+@ContextConfiguration
 class HibernateJpaApplicationTests {
 
 	
